@@ -26,11 +26,6 @@ const loadMenu = () => {
   menuSection.appendChild(menuItem1);
   menuSection.appendChild(menuItem2);
 
-  // Add footer to menu section
-  const footer = document.createElement('footer');
-  footer.innerHTML = '<p>&copy; 2023 Momata Fine Dining. All rights reserved.</p>';
-  menuSection.appendChild(footer);
-
   // Append menu section to page
   document.body.appendChild(menuSection);
 
