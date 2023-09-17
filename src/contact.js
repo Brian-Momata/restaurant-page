@@ -38,6 +38,7 @@ const loadContact = () => {
 
   const messageInput = document.createElement('textarea');
   messageInput.name = 'message';
+  messageInput.placeholder = 'Message';
   messageInput.required = true;
 
   const submitButton = document.createElement('button');
