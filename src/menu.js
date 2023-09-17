@@ -26,9 +26,6 @@ const loadMenu = () => {
   menuSection.appendChild(menuItem1);
   menuSection.appendChild(menuItem2);
 
-  // Append menu section to page
-  document.body.appendChild(menuSection);
-
   // Clear content container
   const contentContainer = document.getElementById('content');
   while (contentContainer.firstChild){
