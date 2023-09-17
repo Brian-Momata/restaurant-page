@@ -7,7 +7,7 @@ const initialPageLoad = () => {
   heroContent.innerHTML = `
     <h2>Welcome to Momata Fine Dining</h2>
     <p>Discover exquisite flavors and a memorable dining experience.</p>
-    <a href="#" id="menu-link">View Menu</a>
+    <a href="#" id="menu-button">View Menu</a>
   `;
   hero.appendChild(heroContent);
 

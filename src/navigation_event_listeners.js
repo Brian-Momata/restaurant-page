@@ -13,6 +13,7 @@ const addNavigationEventListeners = () => {
   const aboutLink = document.getElementById('about-link');
   const contactLink = document.getElementById('contact-link');
   const homeLink = document.getElementById('home-link');
+  const menuButton = document.getElementById('menu-button');
 
   homeLink.addEventListener('click', () => {
     clearContentContainer();
@@ -31,6 +32,10 @@ const addNavigationEventListeners = () => {
   contactLink.addEventListener('click', () => {
     clearContentContainer();
     loadContact();
+  });
+  menuButton.addEventListener('click', () => {
+    clearContentContainer();
+    loadMenu();
   });
 };
 
