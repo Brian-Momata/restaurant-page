@@ -107,26 +107,44 @@ footer {
   margin-top: auto;
 }
 
-/* Menu styles */
+/* Style for the menu section */
 .menu {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center; /* Center the categories horizontally */
 }
 
 .menu-category {
-  flex: 1;
+  flex-basis: 100%; /* Ensure each category spans the full width of the menu */
+  margin-bottom: 20px;
 }
 
+.menu-category > h3 {
+  color: #ccc;
+  font-size: 22px;
+}
+
+/* Style for individual menu items */
 .menu-item {
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s; /* Add a subtle hover effect */
+}
+
+.menu-item:hover {
+  transform: scale(1.02); /* Scale up slightly on hover */
 }
 
 .menu-item img {
-  max-width: 100px;
-  margin-right: 10px;
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .menu-item-info {
@@ -134,12 +152,23 @@ footer {
 }
 
 .menu-item-name {
+  font-size: 20px;
   font-weight: bold;
+  margin-bottom: 10px;
+  color: #04030f;
+}
+
+.menu-item-description {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  color: #04030f;
 }
 
 .menu-item-price {
+  font-size: 18px;
   font-weight: bold;
-  color: #ff5733;
+  color: #dd7230;
 }
 
 /* About styles */
