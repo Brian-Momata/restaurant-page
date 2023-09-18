@@ -240,3 +240,47 @@ footer {
   background-color: #fff;
   color: #dd7230;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-position-y: 50%; /* Adjust background position for smaller screens */
+  }
+
+  header {
+    padding: 5px 0; /* Reduce header padding */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack navigation links vertically */
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 10px 0; /* Add spacing between navigation links */
+  }
+
+  .hero {
+    padding: 50px 0; /* Reduce hero padding */
+  }
+
+  .hero-content h2 {
+    font-size: 28px; /* Decrease font size for headings */
+  }
+
+  .menu-item {
+    flex-direction: column; /* Stack menu items vertically */
+    text-align: center;
+  }
+
+  .menu-item img {
+    margin: 10px 0; /* Add spacing between menu item images */
+  }
+
+  .menu-item-info {
+    text-align: center; /* Center menu item info */
+  }
+
+  .menu-item-description {
+    font-size: 14px; /* Decrease font size for menu item descriptions */
+  }
+}
