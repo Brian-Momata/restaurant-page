@@ -176,8 +176,7 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
 
 .about-heading {
@@ -187,7 +186,7 @@ footer {
 }
 
 .about-paragraph {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
 }
 /* Contact styles */
@@ -198,8 +197,7 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
 
 .contact__title {
@@ -208,7 +206,7 @@ footer {
 }
 
 .contact__info {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -237,6 +235,8 @@ footer {
   cursor: pointer;
 }
 
-.contact__form button:hover {
-  background-color: #04030f;
+.contact__form button:hover,
+.contact__form button:focus {
+  background-color: #fff;
+  color: #dd7230;
 }

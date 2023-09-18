@@ -10,6 +10,7 @@ const loadContact = () => {
   
   // Create an address field
   const addressField = document.createElement('div');
+  addressField.classList.add('contact__info');
   addressField.innerHTML = `
   <p>Address: 123 Main Street, Kahawa, Nairobi</p>
   <p>Phone: +254 715332763</p>
