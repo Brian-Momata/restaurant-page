@@ -11,6 +11,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url('./lidye-1Shk_PkNkNw-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-position-y: 70%;
 }
 
 header {

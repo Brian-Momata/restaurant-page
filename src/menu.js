@@ -1,3 +1,8 @@
+import Appetizer1 from './appetizer1.jpg';
+import Appetizer2 from './appetizer2.jpg';
+import MainCourse1 from './maincourse1.jpg';
+import MainCourse2 from './maincourse2.jpg';
+
 const loadMenu = () => {
   // Create menu section
   const menuSection = document.createElement('section');
@@ -8,15 +13,15 @@ const loadMenu = () => {
     {
       category: 'Appetizers',
       items: [
-        { name: 'Appetizer 1', description: 'Description of Appetizer 1', price: '$10.99', imageSrc: 'appetizer1.jpg' },
-        { name: 'Appetizer 2', description: 'Description of Appetizer 2', price: '$9.99', imageSrc: 'appetizer2.jpg' }
+        { name: 'Deviled Eggs:', description: 'A classic favorite, our deviled eggs are a delightful blend of creamy yolks, zesty mustard, and a sprinkle of paprika, served with a hint of nostalgia.', price: '$10.99', imageSrc: Appetizer1 },
+        { name: 'Fluffy Pancakes', description: 'Our fluffy pancakes are a breakfast dream come true. These golden discs of perfection are served with a drizzle of maple syrup and a dollop of whipped butter.', price: '$9.99', imageSrc: Appetizer2 }
       ]
     },
     {
       category: 'Main Courses',
       items: [
-        { name: 'Main Course 1', description: 'Description of Main Course 1', price: '$10.99', imageSrc: 'maincourse1.jpg' },
-        { name: 'Main Course 2', description: 'Description of Main Course 2', price: '$9.99', imageSrc: 'maincourse2.jpg' }
+        { name: 'Paella', description: 'Savor the flavors of Spain with our delicious Paella. This savory rice dish is a symphony of saffron-infused rice, succulent seafood, and a burst of Mediterranean herbs and spices.', price: '$10.99', imageSrc: MainCourse1 },
+        { name: 'Chicken Biryani', description: 'Dive into a fragrant world of spices and tender chicken with our Chicken Biryani. Basmati rice cooked to perfection, layered with marinated chicken, saffron, and a medley of aromatic spices.', price: '$9.99', imageSrc: MainCourse2 }
       ]
     }
   ];
